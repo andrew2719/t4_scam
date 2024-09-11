@@ -84,6 +84,5 @@ Start the FastAPI server: this allows every ip to interact
 
 Feel free to fork this repository and submit pull requests to contribute to this project.
 
-## License
-
-This project is open-source and available under the MIT License.
+## usage
+Upload in cloud and celebrate
