@@ -1,0 +1,26 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Logs
+*.log
+
+# IDE and editor directories
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other files
+*.sqlite3
+*.db
