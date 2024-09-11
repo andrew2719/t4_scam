@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Messages</title>
+    <script>
+        function refreshMessages() {
+            fetch('/view')
+                .then(response => response.text())
+                .then(html => {
+                    document.body.innerHTML = html;
+                });
+        }
+        setInterval(refreshMessages, 5000);
+    </script>
+</head>
+<body>
+    <h1>View Messages</h1>
+    <ul>
+    {% for message in messages %}
+        <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+    <br>
+    <a href="/">Back to home</a>
+</body>
+</html>
