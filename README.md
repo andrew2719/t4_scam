@@ -5,7 +5,7 @@ This is a simple message application built with FastAPI, allowing users to type 
 ## Project Structure
 
 ```
-message-app/
+t4_scam/
 │
 ├── static/
 │   └── (empty for now)
@@ -28,8 +28,8 @@ message-app/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/fastapi-message-app.git
-   cd fastapi-message-app
+   git clone https://github.com/andrew2719/t4_scam.git
+   cd t4_scam
    ```
 
 2. Create a virtual environment:
